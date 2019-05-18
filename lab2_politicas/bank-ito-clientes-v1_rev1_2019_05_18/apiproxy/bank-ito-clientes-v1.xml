@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="bank-ito-clientes-v1">
+    <Basepaths>/bank-ito/clientes/v1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1558164339743</CreatedAt>
+    <CreatedBy>jovaniac@gmail.com</CreatedBy>
+    <Description>api de clientes de la startup de bank-ito - empresa mexicana</Description>
+    <DisplayName>bank-ito-clientes-v1</DisplayName>
+    <LastModifiedAt>1558165394020</LastModifiedAt>
+    <LastModifiedBy>jovaniac@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:94481f93b9a3b7e0b85227341e9cf3959231494f46136f26688d0290c9bd9465d871cee94c14962191b29f1f72ed6fb94ba2da81dec2585e0ed204a3ce9a32e3</ManifestVersion>
+    <Policies>
+        <Policy>SPIKE-ARREST-DDOS</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

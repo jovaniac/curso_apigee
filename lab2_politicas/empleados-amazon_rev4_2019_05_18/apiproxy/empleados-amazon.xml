@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="empleados-amazon">
+    <Basepaths>/empleados-amazon</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1557989777464</CreatedAt>
+    <CreatedBy>jovaniac@gmail.com</CreatedBy>
+    <Description>empleados de amazon</Description>
+    <DisplayName>empleados-amazon</DisplayName>
+    <LastModifiedAt>1558162215443</LastModifiedAt>
+    <LastModifiedBy>jovaniac@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:2d33d44ef1e1d127b782049b82e2ea2230e0d39e3bbb71497b3beee8ca57414e03c2cfeff3a8d2841cff02a1375ddd50fc843017d10620f3183992394d3a7396</ManifestVersion>
+    <Policies>
+        <Policy>AM-CONTENT-TYPE-JSON</Policy>
+        <Policy>JSON-TO-XML-RESPONSE</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="SPIKE-ARREST-DDOS" version="SHA-512:43c74eab9de084641cbdd0774726ff986be08a747e4c6115e3864e1c91a5f145d58d0a083f6aca2afc4cd7c529bc1a1578272175aff0832c0965da3016cb2985"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:8ce5ef7a227bae0dac736409479747f45769b77a5b8c640f7fd10c17c22d28010f7d17b399a9ca0d655565ead02b5703c6bc413cdb52842d1653ef259a620e70"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:0a35a1e69f8dbb5ea086c58093161a08f47535bfe59f2ddddef62717a020c660c1a923c1447ff06007772f71653cebfc1596478d70349f208cf9328f57d48906"/>
+    </TargetEndpoints>
+</Manifest>

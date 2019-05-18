@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+    <Description/>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request/>
+        <Response/>
+    </PreFlow>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <Flows>
+        <Flow name="get employees /">
+            <Description>Consulta de todos los empleados</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/employees") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="post create/">
+            <Description>Creacion de empleados</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/create") and (request.verb = "POST")</Condition>
+        </Flow>
+        <Flow name="get employee /{id}">
+            <Description>Busca un empleado en especifico</Description>
+            <Request/>
+            <Response>
+            </Response>
+            <Condition>(proxy.pathsuffix MatchesPath "/employee/*") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="update employee /{id}">
+            <Description>Busca un empleado en especifico</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/update/*") and (request.verb = "PUT")</Condition>
+        </Flow>
+        <Flow name="delete employee /{id}">
+            <Description>Busca un empleado en especifico</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/delete/*") and (request.verb = "DELETE")</Condition>
+        </Flow>
+    </Flows>
+    <HTTPProxyConnection>
+        <BasePath>/empleados-amazon</BasePath>
+        <Properties/>
+        <VirtualHost>default</VirtualHost>
+        <VirtualHost>secure</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="default">
+        <TargetEndpoint>default</TargetEndpoint>
+    </RouteRule>
+</ProxyEndpoint>

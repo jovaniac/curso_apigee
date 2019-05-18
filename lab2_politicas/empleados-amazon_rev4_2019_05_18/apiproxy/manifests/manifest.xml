@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-CONTENT-TYPE-JSON" version="SHA-512:d62d6fc001dcd674cd8c9ade25286877c6fb7c0d351da3ca778537ea5d6995adf65f7a388f241655ec1733bae5992b14e6c660b1b6c34fd6362410ea6bf5eaba"/>
+        <VersionInfo resourceName="JSON-TO-XML-RESPONSE" version="SHA-512:ad653efff8049a4c88042b87b634fc25f6e0ffba3d3657bd8cc89a7b3ed57e639aef3ef9aef6289c3c572e109bf91fade880fe89580363e9b306fd0c509fcdbd"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:6e7bd9f5058cbad077b404bbef5803e811fd66fe6a56645f145a1c226e9924df68d7e96a11aba741b79d82b5068dd87f7243c3c06418b68ffe66b72851978456"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:93b4e63d31499cdc0f5c920771e6e533fe1057dcdfa12bc2e87d8275a9d1a68ff00b8763595960531e50765d20ae81bb27336fd2e5171f54e1afae133ac7e137"/>
+    </TargetEndpoints>
+</Manifest>
