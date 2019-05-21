@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="bank-ito-nomina-v1">
+    <Basepaths>/bank-ito/nomina/v1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1558410393116</CreatedAt>
+    <CreatedBy>jovaniac@gmail.com</CreatedBy>
+    <Description>api de nomina para manejo externo de nomina por bank-ito como servicio</Description>
+    <DisplayName>bank-ito-nomina-v1</DisplayName>
+    <LastModifiedAt>1558410605848</LastModifiedAt>
+    <LastModifiedBy>jovaniac@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:daf5a409d0543cbb7f92a33d8f6db5f21deee22de8996005d57ce74c3a5d209c87050a3bcc2efd84337d7a8b843088b66dfcea986f59771dd72a37fbf6bcd132</ManifestVersion>
+    <Policies>
+        <Policy>VAK-SECURITY-API</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
