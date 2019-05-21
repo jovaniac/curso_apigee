@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="1" name="shared-flow-api-security">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1558411644487</CreatedAt>
+    <CreatedBy>jovaniac@gmail.com</CreatedBy>
+    <Description>sharedflow para validar la seguridad en las apis </Description>
+    <DisplayName>shared-flow-api-security</DisplayName>
+    <LastModifiedAt>1558411910064</LastModifiedAt>
+    <LastModifiedBy>jovaniac@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:989e3ed6736fd419bc8fedfc9f0e484fa87fc219b2f0a52a037d3f0f961bc612bfe3e49e042ace09a304d8a49ccfb57d2f7d0e8efa7ec62880031bd8f3004d8a</ManifestVersion>
+    <Policies>
+        <Policy>VAK-SECURITY</Policy>
+    </Policies>
+    <Resources/>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>

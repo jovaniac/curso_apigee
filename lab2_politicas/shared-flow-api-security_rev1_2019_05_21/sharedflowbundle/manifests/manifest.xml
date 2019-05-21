@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="VAK-SECURITY" version="SHA-512:9a5e20c35a07aba7e0672a7318db6540c19c78f07d881be4a40691b2c726f05447b54ab05964045f83478208e13ff3ef37ff5beaf38735ca3776c16e59d35e87"/>
+    </Policies>
+    <ProxyEndpoints/>
+    <Resources/>
+    <SharedFlows>
+        <VersionInfo resourceName="default" version="SHA-512:b52aa863c57a9cbfc45ae53f9e91e56e7d3bcabd54a843694efad1fcee6787a0e09ca8ff238808f17ed720442df38d344d25e3611135452f67eed94d3f95c723"/>
+    </SharedFlows>
+    <TargetEndpoints/>
+</Manifest>

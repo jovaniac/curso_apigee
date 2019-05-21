@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="FC-API-SUCURITY-COMPARTIDA" version="SHA-512:ed612bd1af2bb640eb6b8c2c4283525e57c38f9f2611e114d13a16f00041c2d5098cd26bce078bc15c59b5ce0a29eee59eee04971d19c18fe5c27dc079d6d8fa"/>
+        <VersionInfo resourceName="VAK-SECURITY-API" version="SHA-512:52fe5b4ec57052b0b3ceb0238e20ac084db5735bc8b9865652fb3e8a0df040b0e2d60528b5c02a150c20e99c360c0592d9d55e93fae8676ed9002cb97f5736a3"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:a73e6fd0245a0aa4da6890aa438d29c55f56653f8ef10da0573867efb1ea76dd84c3adaf0b5562dd192d93dffcd79d0c151a18fc77d8fc412acd62ccad0244db"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:f147757c1c415e6964c2095910076516482ef4bd436f55be20390b1ecf0d819731e81fc0524b41a76be7388a77d84823b15eb9351e3043c32f45e95b02f5c1eb"/>
+    </TargetEndpoints>
+</Manifest>

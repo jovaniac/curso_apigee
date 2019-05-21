@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FlowCallout async="false" continueOnError="false" enabled="true" name="FC-API-SUCURITY-COMPARTIDA">
+    <DisplayName>FC-API-SUCURITY-COMPARTIDA</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <SharedFlowBundle>shared-flow-api-security</SharedFlowBundle>
+</FlowCallout>
