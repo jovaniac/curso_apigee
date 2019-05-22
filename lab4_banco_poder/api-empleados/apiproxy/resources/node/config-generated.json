@@ -1,11 +1,11 @@
 {
-    "mockDirectory": "./mock/clientes",
+    "mockDirectory": "./mock",
     "quiet": false,
     "port": "8000",
     "latency": 50,
     "logRequestHeaders": false,
     "webServices": {
-      "empleados/v1":{
+      "":{
         "latency": 10,
         "verbs": [
             "post",

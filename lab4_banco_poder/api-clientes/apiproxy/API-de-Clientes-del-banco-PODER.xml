@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<APIProxy revision="1" name="API-de-Empleados-del-banco-PODER-1">
-    <Basepaths>/empleados/v1</Basepaths>
+<APIProxy revision="1" name="API-de-Clientes-del-banco-PODER">
+    <Basepaths>/clientes/v1</Basepaths>
     <ConfigurationVersion majorVersion="4" minorVersion="0"/>
-    <CreatedAt>1558496084504</CreatedAt>
+    <CreatedAt>1558504850905</CreatedAt>
     <CreatedBy>jovaniac@gmail.com</CreatedBy>
-    <Description>API para poder realizar diferentes operaciones para los empleados del banco PODER
+    <Description>API para poder realizar la captacion de nuevos clientes del banco poder
 </Description>
-    <DisplayName>API-de-Empleados-del-banco-PODER-1</DisplayName>
-    <LastModifiedAt>1558496084504</LastModifiedAt>
+    <DisplayName>API-de-Clientes-del-banco-PODER</DisplayName>
+    <LastModifiedAt>1558504850905</LastModifiedAt>
     <LastModifiedBy>jovaniac@gmail.com</LastModifiedBy>
-    <ManifestVersion>SHA-512:fbf8540662680610dfdc259c863feae56d9b729214da33c586c090d9c8b6b443c32dc2da8b279a15258cea64c1e4acc9a6d5f3577ed7a2a0299b2f56ac2866bc</ManifestVersion>
+    <ManifestVersion>SHA-512:f66abeed848261cee420266da4dc68295df99846dab6e7d98a1e26a5e81beae6a1b1690dee03885922bbc6582656009bb2efbab7bb9af8f4b8cafb86cd6dd8e2</ManifestVersion>
     <Policies/>
     <ProxyEndpoints>
         <ProxyEndpoint>default</ProxyEndpoint>

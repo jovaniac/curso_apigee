@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="api-empleados">
+    <Basepaths>/empleados/v1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1558499940609</CreatedAt>
+    <CreatedBy>jovaniac@gmail.com</CreatedBy>
+    <Description>API para poder realizar diferentes operaciones para los empleados del banco PODER
+</Description>
+    <DisplayName>API-de-Empleados-del-banco-PODER-1</DisplayName>
+    <LastModifiedAt>1558501934507</LastModifiedAt>
+    <LastModifiedBy>jovaniac@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:ffd8dea030811e1513884757bf9791120fb3080740fdc1aceba609da29f26785712c22c28b387886de73447cd1d38f6d41df93e308e8e3a101fcdbf4c5692b4a</ManifestVersion>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://app.js</Resource>
+        <Resource>node://config-generated.json</Resource>
+        <Resource>node://mock/empleados/empleados_400.json</Resource>
+        <Resource>node://mock/empleados/empleados_404.json</Resource>
+        <Resource>node://mock/empleados/empleados_500.json</Resource>
+        <Resource>node://mock/empleados/empleados_delete_200.json</Resource>
+        <Resource>node://mock/empleados/empleados_get_200.json</Resource>
+        <Resource>node://mock/empleados/empleados_get_id_200.json</Resource>
+        <Resource>node://mock/empleados/empleados_post_201.json</Resource>
+        <Resource>node://mock/empleados/empleados_post_input.json</Resource>
+        <Resource>node://mock/empleados/empleados_put_200.json</Resource>
+        <Resource>node://node_modules.zip</Resource>
+        <Resource>node://package.json</Resource>
+        <Resource>openapi://association.json</Resource>
+        <Resource>openapi://empleados-v1.yaml</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+        <TargetEndpoint>mock</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

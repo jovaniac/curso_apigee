@@ -2,13 +2,28 @@
 <Manifest name="manifest">
     <Policies/>
     <ProxyEndpoints>
-        <VersionInfo resourceName="default" version="SHA-512:9b49f47b957452b46e5f299072e541b33117bd1febe57b5edb004bf09a03d2f1acd9d3053c90f5d084b2df9b40a5420465451750ce483c7babc16c9e666033bb"/>
+        <VersionInfo resourceName="default" version="SHA-512:b80f64ffcd26acf8badf0bda4cc263c82a844a15782fdd3876d96cfffcfaff064e1e61bee43f86e3df2162f601a0cdcdae0956ba1816e86ce906bf32cb6db5c2"/>
     </ProxyEndpoints>
     <Resources>
+        <VersionInfo resourceName="node://app.js" version="SHA-512:df57989df5325898da754043dfb645d4a326789335453ec8ba1404fa9e44cdc59217dbecb5247266dadd406ecfe7f00cdac850883ad80d68831e08b2d4bd2120"/>
+        <VersionInfo resourceName="node://config-generated.json" version="SHA-512:c7b9bd3dfa1ed20c435aac25868637b2f0601f318d0a3052c481bb839c459c4852818da0273c4393a2283c6bd14111c1463db6703a19b27a909ea31a756605c4"/>
+        <VersionInfo resourceName="node://mock/empleados/empleados_400.json" version="SHA-512:48dbd141eb9c61f4b987df7d5c7077fef8792ab6a9412da963a1f7ff6009fe0c763ca096acd2e22d73eaa0eb4096d70d15a4a47c3b8a25a0173064094c9f5b6c"/>
+        <VersionInfo resourceName="node://mock/empleados/empleados_404.json" version="SHA-512:0f952e8010ce7ed93e016cb47feeb990b94348405d55c8177280e1253efdae1533723784ed7907c211b51f5a5dd78f6b03beebc30f3379935d9ed56b8403526d"/>
+        <VersionInfo resourceName="node://mock/empleados/empleados_500.json" version="SHA-512:45b03a2e7169261b36d4c9665025e2a7fdbb09525ea6559e4e3aa485d085da9452cd18cc79ed33b98d6ea934a0863a19449e240be22c01b12b893bf429c878bb"/>
+        <VersionInfo resourceName="node://mock/empleados/empleados_delete_200.json" version="SHA-512:a47440f96d7ff1a587ec4a992abeb00df4e5113169b98269bed58bbea47450e8d9575096ec2e5acfbc39f5f9925f8d7a964c3e78b01bc0a0cf124e74b262b914"/>
+        <VersionInfo resourceName="node://mock/empleados/empleados_get_200.json" version="SHA-512:bb58d8ee4f1ba123f7ba353799b3ee1b9e9b8f000756028e6cdae26e6db66ae3fe847729d6fb74bd158ff50cdcb6049f78a0ed031cbcd3f966b00aa24dcd04fc"/>
+        <VersionInfo resourceName="node://mock/empleados/empleados_get_id_200.json" version="SHA-512:d961b85db44358d1293cc24d77e70bdf89101200cc9870ba7a9d5d6dd0fd7dd2d1045d819f6335c5e98ecd5d80f909c12d25d55651c97692c3cfa41d4d37ab17"/>
+        <VersionInfo resourceName="node://mock/empleados/empleados_post_201.json" version="SHA-512:c89804a81e36499a1f38a8205e918a55be8d5b9385e1a29dec3c5de4629c94ad4935c41230bb5c2c0270e3cdcee3fc405b7802f99e483786b45158368d427139"/>
+        <VersionInfo resourceName="node://mock/empleados/empleados_post_input.json" version="SHA-512:05a5d6512896c6aefe8d253ec7a894eb34a2c7b2f99c748fc7d454689d927bbcb29feab96baac1b1d1a7cdc72d5e51d1777683c56a36f1b0a214f35090e1e57e"/>
+        <VersionInfo resourceName="node://mock/empleados/empleados_put_200.json" version="SHA-512:93433704f74966470480523386fa6b0e679c269f7ae4dba8c275c5bebc42a12568a1d67852e2ede64fa2aa95be9806661396d6447713b9a027a18e38cefc6754"/>
+        <VersionInfo resourceName="node://node_modules.zip" version="SHA-512:8a47f3fbd082b4fbb8b01f1218a5a92a561bd3bba59d27ea83bb4e88f383442deeafc8757394108a697d1d3079d284c0dbb5dcd73429772e504ca7d0ccfa7275"/>
+        <VersionInfo resourceName="node://package.json" version="SHA-512:2c4781910edd00a6e007d44afd5d1d0b98c1566504b415fe6f35dafe8db9890d4161686bf284a073b89685d5e62a2eab6c77a05959b71b3a5127999f65f3aaff"/>
         <VersionInfo resourceName="openapi://association.json" version="SHA-512:bb4e0cd22c41cdcf50b5aa484fe4728fcb08b58d60a087fea2efa289442443328cf9b7c802353afa7af5c3c2c3bfed50dd84c46a98a9ab0d0fe80e856257e8a8"/>
+        <VersionInfo resourceName="openapi://empleados-v1.yaml" version="SHA-512:263664f80c00aef8b7d29e84df3763aecfe8a871e85da0e2efdce9a7d247e3bb413f3fb98a73502e449d994284f4e241a21de95dd7ca6c8d2a638c53ee9ca858"/>
     </Resources>
     <SharedFlows/>
     <TargetEndpoints>
         <VersionInfo resourceName="default" version="SHA-512:6e8b8c92304a74fba22861d6193aa0a4a7a45a359061df846d38e5889e18cec6b991336c61dcf9ff38feeb77963cab5e8f28cf4cfe5567a17a1a7bceb831549f"/>
+        <VersionInfo resourceName="mock" version="SHA-512:a067ed935a1bbf9dc9d828fe75c9aaff58ad13d1f4f4e8b259923fa97c1ee45810238cfa4e7aad8c01959fab712c24fcff9cc58f49b03aa0b3c146a48d6ef205"/>
     </TargetEndpoints>
 </Manifest>

@@ -1,0 +1,484 @@
+{
+	"info": {
+		"_postman_id": "2e1b49bc-0c20-4e4d-a21e-dbcc0341cd4b",
+		"name": "curso_apigee",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "politicas",
+			"item": [
+				{
+					"name": "API Clientes bank-ito get 200 spikearrest",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://jovaniac-eval-test.apigee.net/bank-ito/clientes/v1/users",
+							"protocol": "http",
+							"host": [
+								"jovaniac-eval-test",
+								"apigee",
+								"net"
+							],
+							"path": [
+								"bank-ito",
+								"clientes",
+								"v1",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API nomina bank-ito get 200 Verify API Key",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://jovaniac-eval-test.apigee.net/bank-ito/nomina/v1?apikey= Q3bbMU82AJrj8Rr13npcUomUWDDSkNaN",
+							"protocol": "http",
+							"host": [
+								"jovaniac-eval-test",
+								"apigee",
+								"net"
+							],
+							"path": [
+								"bank-ito",
+								"nomina",
+								"v1"
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": " Q3bbMU82AJrj8Rr13npcUomUWDDSkNaN"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "proxies",
+			"item": [
+				{
+					"name": "API usuarios facebook get 200",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://jovaniac-eval-test.apigee.net/usuarios",
+							"protocol": "http",
+							"host": [
+								"jovaniac-eval-test",
+								"apigee",
+								"net"
+							],
+							"path": [
+								"usuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API empleados amazon get 200",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://jovaniac-eval-test.apigee.net/empleados-amazon",
+							"protocol": "http",
+							"host": [
+								"jovaniac-eval-test",
+								"apigee",
+								"net"
+							],
+							"path": [
+								"empleados-amazon"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API empleados amazon get 200 flows",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://jovaniac-eval-test.apigee.net/empleados-amazon/employees",
+							"protocol": "http",
+							"host": [
+								"jovaniac-eval-test",
+								"apigee",
+								"net"
+							],
+							"path": [
+								"empleados-amazon",
+								"employees"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API empleados amazon get 200 flows id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://jovaniac-eval-test.apigee.net/empleados-amazon/employee/304",
+							"protocol": "http",
+							"host": [
+								"jovaniac-eval-test",
+								"apigee",
+								"net"
+							],
+							"path": [
+								"empleados-amazon",
+								"employee",
+								"304"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API empleados amazon post 200",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\":\"Diego Deyfrus\",\"salary\":\"90000\",\"age\":\"40\"}"
+						},
+						"url": {
+							"raw": "http://jovaniac-eval-test.apigee.net/empleados-amazon/create",
+							"protocol": "http",
+							"host": [
+								"jovaniac-eval-test",
+								"apigee",
+								"net"
+							],
+							"path": [
+								"empleados-amazon",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API empleados amazon put 200",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\":\"Diego Deyfrus\",\"salary\":\"10000\",\"age\":\"26\"}"
+						},
+						"url": {
+							"raw": "http://jovaniac-eval-test.apigee.net/empleados-amazon/update/304",
+							"protocol": "http",
+							"host": [
+								"jovaniac-eval-test",
+								"apigee",
+								"net"
+							],
+							"path": [
+								"empleados-amazon",
+								"update",
+								"304"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API empleados amazon delete 200",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\":\"Yaridel\",\"salary\":\"10000\",\"age\":\"26\"}"
+						},
+						"url": {
+							"raw": "http://jovaniac-eval-test.apigee.net/empleados-amazon/delete/288",
+							"protocol": "http",
+							"host": [
+								"jovaniac-eval-test",
+								"apigee",
+								"net"
+							],
+							"path": [
+								"empleados-amazon",
+								"delete",
+								"288"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "sharedflows",
+			"item": [
+				{
+					"name": "API nomina bank-ito get 200 Verify API Key",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://jovaniac-eval-test.apigee.net/bank-ito/nomina/v1?apikey= Q3bbMU82AJrj8Rr13npcUomUWDDSkNaN",
+							"protocol": "http",
+							"host": [
+								"jovaniac-eval-test",
+								"apigee",
+								"net"
+							],
+							"path": [
+								"bank-ito",
+								"nomina",
+								"v1"
+							],
+							"query": [
+								{
+									"key": "apikey",
+									"value": " Q3bbMU82AJrj8Rr13npcUomUWDDSkNaN"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "banco_poder",
+			"item": [
+				{
+					"name": "Authorization Servr Proxy",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "kHAor5VmooqKPP7M",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "3ccLi1Gh1q8XXF4L5AyAzgU5bjs8vMxk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://jovaniac-eval-test.apigee.net/oauth/accesstoken?grant_type=client_credentials",
+							"protocol": "https",
+							"host": [
+								"jovaniac-eval-test",
+								"apigee",
+								"net"
+							],
+							"path": [
+								"oauth",
+								"accesstoken"
+							],
+							"query": [
+								{
+									"key": "grant_type",
+									"value": "client_credentials"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API Empleados post 201",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Omar\",\r\n    \"apellidoMaterno\": \"Gonzalez\",\r\n    \"apellidoPaterno\": \"Ramirez\",\r\n    \"edad\": \"26\",\r\n    \"curp\": \"VEGA780615HDFLML08\",\r\n    \"rfc\": \"CUPU800825569\",\r\n    \"domicilio\": \"Bugambilias 10, Colonia 10 de abril, Coyoacan CDMX\",\r\n    \"imagen\": \"aHR0cHM6Ly93d3cuYmFzZTY0ZW5jb2RlLm9yZy8=\",\r\n    \"puesto\": \"Software Engineer Cobol\",\r\n    \"status\": \"Activo\",\r\n    \"numeroDeEmpleado\": \"306949\"\r\n}"
+						},
+						"url": {
+							"raw": "http://jovaniac-eval-test.apigee.net/empleados/v1",
+							"protocol": "http",
+							"host": [
+								"jovaniac-eval-test",
+								"apigee",
+								"net"
+							],
+							"path": [
+								"empleados",
+								"v1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API Empleados get 200",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://jovaniac-eval-test.apigee.net/empleados/v1",
+							"protocol": "http",
+							"host": [
+								"jovaniac-eval-test",
+								"apigee",
+								"net"
+							],
+							"path": [
+								"empleados",
+								"v1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API Clientes post 201",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Yaridel\",\r\n    \"apellidoPaterno\": \"Arzate\",\r\n    \"apellidoMaterno\": \"Landa\",\r\n    \"edad\": \"25\",\r\n    \"rfc\": \"CUPU800825569\",\r\n    \"email\": \"yaridel@gmail.com\",\r\n    \"direccion\": \"calle esperanza, num 10 de abril, Temixco Morelos\",\r\n    \"codigoPostal\": \"62588\",\r\n    \"referencias\": \"Frente a la base de camiones LOS PEPES\",\r\n    \"genero\": \"F\"\r\n}"
+						},
+						"url": {
+							"raw": "http://jovaniac-eval-test.apigee.net/clientes/v1",
+							"protocol": "http",
+							"host": [
+								"jovaniac-eval-test",
+								"apigee",
+								"net"
+							],
+							"path": [
+								"clientes",
+								"v1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API Clientes post 400",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nombre\": \"Jovani\",\n    \"apellidoPaterno\": \"Arzate\",\n    \"apellidoMaterno\": \"Landa\",\n    \"edad\": \"27s\",\n    \"rfc\": \"456787656453454\",\n    \"email\": \"jovaniac@gmail.com\",\n    \"direccion\": \"bugambilias 2, colonia 10 de abril, Temixco Morelos\",\n    \"codigoPostal\": \"0634560\",\n    \"referencias\": \"enfrente de la tortilleria ALFONSOS\",\n    \"genero\": \"M\"\n  }"
+						},
+						"url": {
+							"raw": "http://jovaniac-eval-test.apigee.net/clientes/v1",
+							"protocol": "http",
+							"host": [
+								"jovaniac-eval-test",
+								"apigee",
+								"net"
+							],
+							"path": [
+								"clientes",
+								"v1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
