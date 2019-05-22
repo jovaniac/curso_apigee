@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+    <Description/>
+    <FaultRules/>
+    <PreFlow name="PreFlow">
+        <Request/>
+        <Response/>
+    </PreFlow>
+    <PostFlow name="PostFlow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <Flows>
+        <Flow name="post /">
+            <Description>Solicitud de un credito bancario</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/") and (request.verb = "POST")</Condition>
+        </Flow>
+        <Flow name="get /">
+            <Description>consulta de una solicitud de credito bancario</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="put /">
+            <Description>actualizacion de una solicitud de credito bancario</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/") and (request.verb = "PUT")</Condition>
+        </Flow>
+        <Flow name="delete /">
+            <Description>dar de baja una solicitud de credito</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/") and (request.verb = "DELETE")</Condition>
+        </Flow>
+        <Flow name="post /aprobaciones">
+            <Description>aprobacion de una solicitud de credito</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/aprobaciones") and (request.verb = "POST")</Condition>
+        </Flow>
+        <Flow name="get /{idCredito}/saldos">
+            <Description>consulta del saldo actual del credito</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/*/saldos") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="get /{idCredito}/pagos">
+            <Description>consulta de los pagos realizados al credito</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/*/pagos") and (request.verb = "GET")</Condition>
+        </Flow>
+        <Flow name="post /pagos">
+            <Description>creacion de un abono para el credito</Description>
+            <Request/>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/pagos") and (request.verb = "POST")</Condition>
+        </Flow>
+    </Flows>
+    <HTTPProxyConnection>
+        <BasePath>/creditos/v1</BasePath>
+        <Properties/>
+        <VirtualHost>default</VirtualHost>
+        <VirtualHost>secure</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="RouteRuleMock">
+        <Condition>(environment.name = "test")</Condition>
+        <TargetEndpoint>mock</TargetEndpoint>
+    </RouteRule>
+    <RouteRule name="default">
+        <TargetEndpoint>default</TargetEndpoint>
+    </RouteRule>
+</ProxyEndpoint>

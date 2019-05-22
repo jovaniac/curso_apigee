@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="API-de-Creditos-del-banco-PODER">
+    <Basepaths>/creditos/v1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1558506609241</CreatedAt>
+    <CreatedBy>jovaniac@gmail.com</CreatedBy>
+    <Description>API para poder realizar diferentes operaciones de los creditos que ofrece el banco poder al mercado latino
+</Description>
+    <DisplayName>API-de-Creditos-del-banco-PODER</DisplayName>
+    <LastModifiedAt>1558506609241</LastModifiedAt>
+    <LastModifiedBy>jovaniac@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:7da71e69c147f49fec450185d460736a91f0caf8256007440bb561f0e40dc01d5d0f6580075ba443008f3ff3a00dfea7a0abfbb4b0d2d22f6973a34aef191f92</ManifestVersion>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
