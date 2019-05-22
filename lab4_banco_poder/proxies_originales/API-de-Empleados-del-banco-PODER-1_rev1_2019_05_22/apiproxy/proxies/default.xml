@@ -48,10 +48,6 @@
         <VirtualHost>default</VirtualHost>
         <VirtualHost>secure</VirtualHost>
     </HTTPProxyConnection>
-    <RouteRule name="RouteRuleMock">
-        <Condition>(environment.name = "test")</Condition>
-        <TargetEndpoint>mock</TargetEndpoint>
-    </RouteRule>
     <RouteRule name="default">
         <TargetEndpoint>default</TargetEndpoint>
     </RouteRule>
