@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="api-creditos">
+    <Basepaths>/api-creditos</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1557819372600</CreatedAt>
+    <CreatedBy>jovaniac@gmail.com</CreatedBy>
+    <Description>api de creditos del banco poder</Description>
+    <DisplayName>api-creditos</DisplayName>
+    <LastModifiedAt>1557819372600</LastModifiedAt>
+    <LastModifiedBy>jovaniac@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:31efd1a306714747f5234bea03141f8b835d71e7d19fa5f803ff46f25fedf21bb3bd18223492137366303008406a47e7d23fe1aab59e409bd20b8f3967060524</ManifestVersion>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

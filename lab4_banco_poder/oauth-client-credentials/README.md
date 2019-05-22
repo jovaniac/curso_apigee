@@ -16,42 +16,6 @@ The API is called like this, where the client ID and secret are Base64-encoded a
 curl -H "Authorization: Basic <base64-encoded key:secret>" https://example-test.apigee.net/oauth/accesstoken?grant_type=client_credentials
 ```
 
-The flow of this grant type looks like this:
-
-![alt text](../images/oauth-client-cred-flow-3.png)
-
-## Implementation on Apigee Edge 
-
-The client credentials sample uses one policy that executes on Apigee Edge: An OAuthV2 policy to generate the access token. The policy is attached to the `/accesstoken` endpoint (a custom flow on Apigee Edge). 
-
-## Prerequisites
-
-To run this sample, you'll need:
-
-* The username and password that you use to login to `enterprise.apigee.com`.
-
-* The name of the organization in which you have an account. Login to 
-  `enterprise.apigee.com` and check account settings.
-
-## Configure 
-
-1. Edit this script with your environment details:
-
-    `api-platform-samples/setup/setenv.sh`
-    
-2. cd to `api-platform-samples/setup/provisioning`
-3. Execute this script to set up required API products, developers, and apps in your organization:
-
-    `./setup.sh`
-
-4. Enter your Edge password when prompted.
-5. Enter the name of this sample proxy when prompted. It is `oauth-client-credentials`.
-
-## Deploy and run the sample project
-
-To deploy, run `$ sh deploy.sh`
-
-To test, run `$ sh invoke.sh`
 
 ## Result
 
@@ -78,21 +42,3 @@ AccessToken Response:
   "refresh_count" : "0"
 }
 ````
-
-## Ask the community
-
-[![alt text](../../images/apigee-community.png "Apigee Community is a great place to ask questions and find answers about developing API proxies. ")](https://community.apigee.com?via=github)
-
----
-
-Copyright © 2016 Apigee Corporation
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use
-this file except in compliance with the License. You may obtain a copy
-of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.

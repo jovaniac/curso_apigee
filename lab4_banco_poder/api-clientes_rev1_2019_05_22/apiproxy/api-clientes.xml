@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="api-clientes">
+    <Basepaths>/api-clientes</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1557817331395</CreatedAt>
+    <CreatedBy>jovaniac@gmail.com</CreatedBy>
+    <Description>api de clientes banco poder</Description>
+    <DisplayName>api-clientes</DisplayName>
+    <LastModifiedAt>1557817331395</LastModifiedAt>
+    <LastModifiedBy>jovaniac@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:b0c3a8dab309d56afa6a40138c2612c57f24b5f3846de97ba1b9a3340e9c37dc4249fb11845b95c1711f0903c62f8843027dcd41b0f97910534a5b1e72d2ab42</ManifestVersion>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
