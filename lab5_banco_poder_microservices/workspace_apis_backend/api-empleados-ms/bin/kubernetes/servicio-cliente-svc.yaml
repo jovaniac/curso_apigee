@@ -1,0 +1,15 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: servicio-cliente
+spec:
+  type: LoadBalancer
+  selector:
+    app: servicio-cliente
+  ports:
+  - protocol: TCP
+    port: 8081
+    targetPort: 8081
+
+    
+
