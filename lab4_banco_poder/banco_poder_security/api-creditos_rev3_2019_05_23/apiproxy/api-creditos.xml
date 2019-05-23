@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="api-creditos">
+    <Basepaths>/creditos/v1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1558593930652</CreatedAt>
+    <CreatedBy>jovaniac@gmail.com</CreatedBy>
+    <Description>API para poder realizar diferentes operaciones de los creditos que ofrece el banco poder al mercado latino
+</Description>
+    <DisplayName>API-de-Creditos-del-banco-PODER</DisplayName>
+    <LastModifiedAt>1558593930652</LastModifiedAt>
+    <LastModifiedBy>jovaniac@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:3f310b1574c5ba14f1dc1c7797f8800c6ea8ef75344bb3e9de312f8f9543c83df43b80215b36e08131024174d2a501818e644b162d4fa3657f9a2b8ee4e5cd23</ManifestVersion>
+    <Policies>
+        <Policy>AM-Respuesta-Template</Policy>
+        <Policy>FC-VERIFICA-TOKEN</Policy>
+        <Policy>RF-Excepcion</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://app.js</Resource>
+        <Resource>node://config-generated.json</Resource>
+        <Resource>node://mock/creditos/creditos_400.json</Resource>
+        <Resource>node://mock/creditos/creditos_404.json</Resource>
+        <Resource>node://mock/creditos/creditos_500.json</Resource>
+        <Resource>node://mock/creditos/creditos_aprobaciones_input.json</Resource>
+        <Resource>node://mock/creditos/creditos_aprobaciones_post_201.json</Resource>
+        <Resource>node://mock/creditos/creditos_delete_200.json</Resource>
+        <Resource>node://mock/creditos/creditos_get_200.json</Resource>
+        <Resource>node://mock/creditos/creditos_input.json</Resource>
+        <Resource>node://mock/creditos/creditos_pagos_get_200.json</Resource>
+        <Resource>node://mock/creditos/creditos_post_201.json</Resource>
+        <Resource>node://mock/creditos/creditos_put_200.json</Resource>
+        <Resource>node://mock/creditos/creditos_saldos_400.json</Resource>
+        <Resource>node://mock/creditos/creditos_saldos_get_200.json</Resource>
+        <Resource>node://mock/creditos/creditos_saldos_post_201.json</Resource>
+        <Resource>node://node_modules.zip</Resource>
+        <Resource>node://package.json</Resource>
+        <Resource>openapi://association.json</Resource>
+        <Resource>openapi://creditos-v1.yaml</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+        <TargetEndpoint>mock</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

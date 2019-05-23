@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="2" name="shared-flow-oauth2-proxies">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1558586317366</CreatedAt>
+    <CreatedBy>jovaniac@gmail.com</CreatedBy>
+    <Description>ouath2 validacion de access token</Description>
+    <DisplayName>shared-flow-oauth2-proxies</DisplayName>
+    <LastModifiedAt>1558593136525</LastModifiedAt>
+    <LastModifiedBy>jovaniac@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:c08509b1f470e1953647d18f060e6a346d30ea26aee8e0b391fd421e79f00323746ba0e58cf2bc781a973de313521e58e41c0aaeffb1986705695a70036ec9b1</ManifestVersion>
+    <Policies>
+        <Policy>AM-Error-Verify-Auth</Policy>
+        <Policy>OAuth-v20-1</Policy>
+        <Policy>RF-Excepcion</Policy>
+    </Policies>
+    <Resources/>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>

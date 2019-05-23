@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FlowCallout async="false" continueOnError="false" enabled="true" name="FC-VERIFICA-TOKEN">
+    <DisplayName>FC-VERIFICA-TOKEN</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <SharedFlowBundle>shared-flow-oauth2-proxies</SharedFlowBundle>
+</FlowCallout>

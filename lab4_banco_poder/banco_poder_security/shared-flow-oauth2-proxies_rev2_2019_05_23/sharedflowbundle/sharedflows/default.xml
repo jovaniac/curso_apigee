@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlow name="default">
+    <Step>
+        <Name>OAuth-v20-1</Name>
+    </Step>
+    <Step>
+        <Condition>(oauthV2.OAuth-v20-1.failed = true)</Condition>
+        <Name>AM-Error-Verify-Auth</Name>
+    </Step>
+    <Step>
+        <Condition>(flow.error.code != null)</Condition>
+        <Name>RF-Excepcion</Name>
+    </Step>
+</SharedFlow>

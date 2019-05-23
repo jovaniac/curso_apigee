@@ -312,31 +312,44 @@
 			"name": "banco_poder",
 			"item": [
 				{
-					"name": "Authorization Servr Proxy",
+					"name": "Authorization Server Proxy",
 					"request": {
 						"auth": {
 							"type": "basic",
 							"basic": [
 								{
 									"key": "password",
-									"value": "kHAor5VmooqKPP7M",
+									"value": "bAbBmJjPPiAjoQOd",
 									"type": "string"
 								},
 								{
 									"key": "username",
-									"value": "3ccLi1Gh1q8XXF4L5AyAzgU5bjs8vMxk",
+									"value": "JZFS7CNhLAhm4hxerhvfLJXugJ7C9RxY",
 									"type": "string"
 								}
 							]
 						},
-						"method": "GET",
-						"header": [],
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
 						"body": {
-							"mode": "raw",
-							"raw": ""
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "grant_type",
+									"value": "client_credentials",
+									"type": "text"
+								}
+							]
 						},
 						"url": {
-							"raw": "https://jovaniac-eval-test.apigee.net/oauth/accesstoken?grant_type=client_credentials",
+							"raw": "https://jovaniac-eval-test.apigee.net/autorizationserver/accesstoken",
 							"protocol": "https",
 							"host": [
 								"jovaniac-eval-test",
@@ -344,14 +357,8 @@
 								"net"
 							],
 							"path": [
-								"oauth",
+								"autorizationserver",
 								"accesstoken"
-							],
-							"query": [
-								{
-									"key": "grant_type",
-									"value": "client_credentials"
-								}
 							]
 						}
 					},
@@ -360,6 +367,16 @@
 				{
 					"name": "API Empleados post 201",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "UMRiaXfE0sgIPVMPRnM4qpYaWytO",
+									"type": "string"
+								}
+							]
+						},
 						"method": "POST",
 						"header": [
 							{
@@ -392,6 +409,16 @@
 				{
 					"name": "API Empleados get 200",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "hv4347StlGUjM9kXXKOzeWpMjokk",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"body": {
@@ -417,6 +444,16 @@
 				{
 					"name": "API Clientes post 201",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "hv4347StlGUjM9kXXKOzeWpMjokk",
+									"type": "string"
+								}
+							]
+						},
 						"method": "POST",
 						"header": [
 							{
@@ -472,6 +509,48 @@
 							],
 							"path": [
 								"clientes",
+								"v1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "API Creditos post 201",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "a8HKATMVo4FpT15VabVzJYyA2jJT",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"pais\":\"Mexico\",\r\n   \"canal\":\"1\",\r\n   \"sucursal\":{\r\n      \"id\":\"54\",\r\n      \"nombre\":\"Sucursal Leones\",\r\n      \"telefono\":\"5580965421\",\r\n      \"estado\":\"43\",\r\n      \"municipio\":\"10\",\r\n      \"numero\":\"50392\"\r\n   },\r\n   \"producto\":\"5\",\r\n   \"monto\":\"20000\",\r\n   \"plazo\":\"2\",\r\n   \"referencias\":[\r\n      {\r\n         \"nombre\":\"Israel\",\r\n         \"apellidos\":\"Ortiz Feria\",\r\n         \"tipoReferencia\":\"Companero de Trabajo\",\r\n         \"aniosConocimiento\":\"5\"\r\n      }\r\n   ]\r\n}"
+						},
+						"url": {
+							"raw": "http://jovaniac-eval-test.apigee.net/creditos/v1",
+							"protocol": "http",
+							"host": [
+								"jovaniac-eval-test",
+								"apigee",
+								"net"
+							],
+							"path": [
+								"creditos",
 								"v1"
 							]
 						}

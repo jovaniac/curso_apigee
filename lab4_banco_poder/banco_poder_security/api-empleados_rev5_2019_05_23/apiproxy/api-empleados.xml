@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="5" name="api-empleados">
+    <Basepaths>/empleados/v1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1558502519125</CreatedAt>
+    <CreatedBy>jovaniac@gmail.com</CreatedBy>
+    <Description>API para poder realizar diferentes operaciones para los empleados del banco PODER
+</Description>
+    <DisplayName>API-de-Empleados-del-banco-PODER-1</DisplayName>
+    <LastModifiedAt>1558593189410</LastModifiedAt>
+    <LastModifiedBy>jovaniac@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:dec2df2e304a2893c8c7155199c3b37418187b8100fb197ed8ddea7b34f0bccd0bc2739a3850615eeb44cc3f7c057e6a17dc6252cf8d4533adf6a03cf642ef43</ManifestVersion>
+    <Policies>
+        <Policy>AM-Respuesta-Template</Policy>
+        <Policy>FC-VERIFICA-TOKEN</Policy>
+        <Policy>RF-Excepcion</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://app.js</Resource>
+        <Resource>node://config-generated.json</Resource>
+        <Resource>node://mock/empleados/empleados_400.json</Resource>
+        <Resource>node://mock/empleados/empleados_404.json</Resource>
+        <Resource>node://mock/empleados/empleados_500.json</Resource>
+        <Resource>node://mock/empleados/empleados_delete_200.json</Resource>
+        <Resource>node://mock/empleados/empleados_get_200.json</Resource>
+        <Resource>node://mock/empleados/empleados_get_id_200.json</Resource>
+        <Resource>node://mock/empleados/empleados_post_201.json</Resource>
+        <Resource>node://mock/empleados/empleados_post_input.json</Resource>
+        <Resource>node://mock/empleados/empleados_put_200.json</Resource>
+        <Resource>node://node_modules.zip</Resource>
+        <Resource>node://package.json</Resource>
+        <Resource>openapi://association.json</Resource>
+        <Resource>openapi://empleados-v1.yaml</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+        <TargetEndpoint>mock</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

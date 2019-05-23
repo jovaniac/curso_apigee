@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-Respuesta-Template" version="SHA-512:cfb9ffa1eb7be371331dcf3b14d80061cb34b331d55c09ecf741eb3765b45191db7efaa4642741b4d059872f784533a7c9687ffe9b86c25f7096764156105246"/>
+        <VersionInfo resourceName="FC-VERIFICA-TOKEN" version="SHA-512:f0c027e7bc2cb5f037b54fe21c61e44da62ce2d665f01d09172a7c8046847d76cc0f2bb46876ef25703cac968f27c74eaa557fe9ca81849c2334549c3f47ff48"/>
+        <VersionInfo resourceName="RF-Excepcion" version="SHA-512:31bce8852f43b6f238b27946739aee36585edecb97ec2aafe780dad69e3ef504cc35156203a9c9e9eaa7939e2f656f5c0db134ad847cb9fae54821cdb8b20f27"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:385c3ccb4cf9c2a5e201f48d44c4882ea0c85f5b44a18df3ae0a2783015f80a43dd965c10beb7ca1b4d09b3ab6c5f0c42f0d96fca81f3c441d99b10d2cb4e196"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="node://app.js" version="SHA-512:df57989df5325898da754043dfb645d4a326789335453ec8ba1404fa9e44cdc59217dbecb5247266dadd406ecfe7f00cdac850883ad80d68831e08b2d4bd2120"/>
+        <VersionInfo resourceName="node://config-generated.json" version="SHA-512:0d8867b24c0cb94516747067bd54522cdec6e6443ddc911faeac03cde7b1a8d778b4794ed87cf7faf41c0bad1fc4944a0f3a26a49f2c300f2b06c3eb7d64d040"/>
+        <VersionInfo resourceName="node://mock/creditos/creditos_400.json" version="SHA-512:43e5b3294b77b722179692e81a2d68adb8c44c7b86dca88c0f562e58b71cc6ba936d4846367db35e6d697c22fc4bbfdc5b63702aa695bd6d9142780bd9ace8c5"/>
+        <VersionInfo resourceName="node://mock/creditos/creditos_404.json" version="SHA-512:cf25c91dde28b439286c7d09dfd8fa3f73f0e0832e1ebbcc5c30d7b1ea1b9cc614c3ae79db7a4cc117c24ff2a09d081a457ca894ceecb80a6366247b610ebf17"/>
+        <VersionInfo resourceName="node://mock/creditos/creditos_500.json" version="SHA-512:22c4cc48a31ba2a47e991c168a3733885448665dca7feab7db95a326a5e81ae0834f27e96a16f8732126c722ebec1db35bf027c2f1aab3c9d9c492fcd0b84e6f"/>
+        <VersionInfo resourceName="node://mock/creditos/creditos_aprobaciones_input.json" version="SHA-512:b54e1505cb0a875268b9930d0a4f35f0ce7a183c31b5a27bccd91035cfe1b6a06399a7fa6de544764b7a1f3c0c2529a161dddaaeca3ba5eddc1407a141528b10"/>
+        <VersionInfo resourceName="node://mock/creditos/creditos_aprobaciones_post_201.json" version="SHA-512:0074443c8bbd4c2a1fe76aa5a30dcb96b750f16cadcb48b033fad241d94f7020faa6cf2ebca10f4ded8d1900afd87fcfbaee4aefa65f02ecb735f70289c658ac"/>
+        <VersionInfo resourceName="node://mock/creditos/creditos_delete_200.json" version="SHA-512:861f3b980d582f658636756483f58052d47ef97577412d2f247391f4e958aefc3157a2ca426436cbde5e5f62ddd3b68ba1120bc7b63254f12b9e5137ef53aa9a"/>
+        <VersionInfo resourceName="node://mock/creditos/creditos_get_200.json" version="SHA-512:bc88891a87154c5c183e7cab7afde09bc28abb24b2aadd7d522223a4c35179a5f986e1609befc4238ab58e82b15705ca84eb23de9ae7927cb3223ede6b103a44"/>
+        <VersionInfo resourceName="node://mock/creditos/creditos_input.json" version="SHA-512:305c082e8d403780fbd4d6de5880b8faf6e5e00c6174bea73991a53540f129d9072c8c9309af9614fb4a530e31f05403a6dcb6d6d3537ec915d8bc2bce7bb35d"/>
+        <VersionInfo resourceName="node://mock/creditos/creditos_pagos_get_200.json" version="SHA-512:4334ec35e80463375efa51fea2d9ea1e970248c839d8d65910addf3a97feebd6489bd85731aba1b702d8493d3d3b8d391d4f4c1e47ef489bc6db152f1e33706b"/>
+        <VersionInfo resourceName="node://mock/creditos/creditos_post_201.json" version="SHA-512:c1878baa856178a6b7f3383c7675691f764c747bbfcca6e0dae9a8509e09c0b299cfbbf53b06e4fbf019daa01026319cbc975f459ce8087e24342352d7ebc0e1"/>
+        <VersionInfo resourceName="node://mock/creditos/creditos_put_200.json" version="SHA-512:bcdc0a090c4f27265cb53e04e235d0290ab4d36a5b65fd927be60c7b94d93b78b693dfbb51a08e4b08b5e3dc3bdabb41e538b37480e0cbda352379ab4cbb0162"/>
+        <VersionInfo resourceName="node://mock/creditos/creditos_saldos_400.json" version="SHA-512:38377422f38571a45bd9ef9bed6300e82decc491d343cbc0272dbbf4f92aa143ebdb467c40eb35d5a88bb15d4e1e68b7d777394d4d606bbe940b98860c1f17bf"/>
+        <VersionInfo resourceName="node://mock/creditos/creditos_saldos_get_200.json" version="SHA-512:f1052114434c5bef2cfad31a5bc893a418a41e022de61c0559389ddbb2629d4b7ca5986b0997b90ed104a822b3e91e8fd0be93fd790b5825116198718fa1d936"/>
+        <VersionInfo resourceName="node://mock/creditos/creditos_saldos_post_201.json" version="SHA-512:71b8d64c455f20cf011448e63af53f42d9826f44f044297c4f72c8edea75402ffcbf1fa9cf861bc0e59f2be72366cff2c0c3512778cb3acfc7d4cd087f099fb3"/>
+        <VersionInfo resourceName="node://node_modules.zip" version="SHA-512:8a47f3fbd082b4fbb8b01f1218a5a92a561bd3bba59d27ea83bb4e88f383442deeafc8757394108a697d1d3079d284c0dbb5dcd73429772e504ca7d0ccfa7275"/>
+        <VersionInfo resourceName="node://package.json" version="SHA-512:2c4781910edd00a6e007d44afd5d1d0b98c1566504b415fe6f35dafe8db9890d4161686bf284a073b89685d5e62a2eab6c77a05959b71b3a5127999f65f3aaff"/>
+        <VersionInfo resourceName="openapi://association.json" version="SHA-512:a95ac65a771e2ddefa80e5cd861c72a9052c07501989a5def158e25a0780b3c576257a1a36d157dcade538c802b452b6300154405886564a6e02f58062f11432"/>
+        <VersionInfo resourceName="openapi://creditos-v1.yaml" version="SHA-512:4a2879c96867bb2f7eb8c89f57a1d803b782a94c89c103288cfa658a42412574e125ed4b59a5104f6fb3fb8f932f0460bd213364ada0487cb08f06eb48a60181"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:098c633de1873864532ba40ed04a07c5c598e4485c2b3818b5054289ba9428014fc855f6d9d9d11f61e2349c531e25442a2efe053c1a1fd51cb4aa025f82754d"/>
+        <VersionInfo resourceName="mock" version="SHA-512:6abe385520aaba57a5685b1ab86bd3e3b88a4d94b5e097900c4bc4725b82d98df5c498a0a759d1dfdf8798af599049378f8bb8cfb172b180163b414b22d8062e"/>
+    </TargetEndpoints>
+</Manifest>

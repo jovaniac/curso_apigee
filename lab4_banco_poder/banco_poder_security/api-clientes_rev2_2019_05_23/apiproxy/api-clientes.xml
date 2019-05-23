@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="api-clientes">
+    <Basepaths>/clientes/v1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1558505893648</CreatedAt>
+    <CreatedBy>jovaniac@gmail.com</CreatedBy>
+    <Description>API para poder realizar la captacion de nuevos clientes del banco poder
+</Description>
+    <DisplayName>API-de-Clientes-del-banco-PODER</DisplayName>
+    <LastModifiedAt>1558593544829</LastModifiedAt>
+    <LastModifiedBy>jovaniac@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:71e53f90d52220635abdeff9988260b24b4e52fea76422f6cab3db0dba6d4b26f10b9c06ab9fe3b2ebeae6085cae9d4f661fa79355bb6a3f16eaa4cf50a5a604</ManifestVersion>
+    <Policies>
+        <Policy>AM-Respuesta-Template</Policy>
+        <Policy>FC-VERIFICA-TOKEN</Policy>
+        <Policy>RF-Excepcion</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://app.js</Resource>
+        <Resource>node://config-generated.json</Resource>
+        <Resource>node://mock/clientes/clientes_400.json</Resource>
+        <Resource>node://mock/clientes/clientes_404.json</Resource>
+        <Resource>node://mock/clientes/clientes_500.json</Resource>
+        <Resource>node://mock/clientes/clientes_delete_200.json</Resource>
+        <Resource>node://mock/clientes/clientes_get_200.json</Resource>
+        <Resource>node://mock/clientes/clientes_input.json</Resource>
+        <Resource>node://mock/clientes/clientes_post_201.json</Resource>
+        <Resource>node://mock/clientes/clientes_post_201_2.json</Resource>
+        <Resource>node://mock/clientes/clientes_put_200.json</Resource>
+        <Resource>node://node_modules.zip</Resource>
+        <Resource>node://package.json</Resource>
+        <Resource>openapi://association.json</Resource>
+        <Resource>openapi://clientes-v1.yaml</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+        <TargetEndpoint>mock</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

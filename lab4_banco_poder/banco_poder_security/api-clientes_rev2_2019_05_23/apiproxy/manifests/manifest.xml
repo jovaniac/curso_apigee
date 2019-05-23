@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-Respuesta-Template" version="SHA-512:cfb9ffa1eb7be371331dcf3b14d80061cb34b331d55c09ecf741eb3765b45191db7efaa4642741b4d059872f784533a7c9687ffe9b86c25f7096764156105246"/>
+        <VersionInfo resourceName="FC-VERIFICA-TOKEN" version="SHA-512:f0c027e7bc2cb5f037b54fe21c61e44da62ce2d665f01d09172a7c8046847d76cc0f2bb46876ef25703cac968f27c74eaa557fe9ca81849c2334549c3f47ff48"/>
+        <VersionInfo resourceName="RF-Excepcion" version="SHA-512:31bce8852f43b6f238b27946739aee36585edecb97ec2aafe780dad69e3ef504cc35156203a9c9e9eaa7939e2f656f5c0db134ad847cb9fae54821cdb8b20f27"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:d2556fefb90fd141382b269104523ed72576d5126a7c7906fcfe79f263730436c0c5d2bc59bd1b68bb43d905cde1605bee2707a3d8bb1b84ce4922b5568dcb7a"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="node://app.js" version="SHA-512:df57989df5325898da754043dfb645d4a326789335453ec8ba1404fa9e44cdc59217dbecb5247266dadd406ecfe7f00cdac850883ad80d68831e08b2d4bd2120"/>
+        <VersionInfo resourceName="node://config-generated.json" version="SHA-512:102cd7e408832b96f269a4e90d751eca85def7c470aa1cfe764a4a40f19599a38dd665ce720cc6f825263c0a66ee8e89b94d5a18536e715de732f309868bbdff"/>
+        <VersionInfo resourceName="node://mock/clientes/clientes_400.json" version="SHA-512:bf861145217326177cc47fb66ebe567901a07d70b898da5e74dfd755d677b2e45ccc6a21fa98a01ac036b8f4a15401632aa1d2953c5341e6c9dbc13de6810fb0"/>
+        <VersionInfo resourceName="node://mock/clientes/clientes_404.json" version="SHA-512:1d348332d930ec6cb5b60d640039cd23b169dd35b737adc27c62861b5745715f46528313ff61202aeb3e08c03091c42e6cc27863e425cca3aeefa5d4bcd21dce"/>
+        <VersionInfo resourceName="node://mock/clientes/clientes_500.json" version="SHA-512:73c412174c07321b26c06bdad9b68458e2f509fb3ffd3b9356388c69a5208b5c867b135b97bf238a307d5fb5df2f0cb1e04909a6abdc5f7777a07d6f9186fce5"/>
+        <VersionInfo resourceName="node://mock/clientes/clientes_delete_200.json" version="SHA-512:23bbeeb9e96343936816ec4b00f3b5ffc5e1ceed1bccfa7f1c3f7a54872a5efe8be5703a04509b0615fe33a8d8eb713a333e779700aa9d0d80e50afdcdcee5ca"/>
+        <VersionInfo resourceName="node://mock/clientes/clientes_get_200.json" version="SHA-512:4baed681b502c738a53a043abe059d81a1463d741d1d34e195eab566660977da567bb4661e09acb5c01b5452e795de023d9155dca1554ccd49de829437a48ce1"/>
+        <VersionInfo resourceName="node://mock/clientes/clientes_input.json" version="SHA-512:29ef9fccef8b72dab3b1878f178f66a20d9ae0b7de2862dec18adf11e78af1aed50ac71454355fa8124820120566a63a29b6674b9d34967fd42436d7fce3ccc4"/>
+        <VersionInfo resourceName="node://mock/clientes/clientes_post_201.json" version="SHA-512:28a822fff4f499d98236c0ff150435dc6f078abd154d3d1caf62fb77e66b87b542a77988e0f4918147271bbc622a30ac17757bf759e380b18778bc0cac89476d"/>
+        <VersionInfo resourceName="node://mock/clientes/clientes_post_201_2.json" version="SHA-512:1e7ce0b30391b3afbf8c9929ff905ef338bcf7cd159c34639d91acde72e603c23c398c230f9de87bb907a5b6267d43de5b9527d8247a23de98197e5c1669aff6"/>
+        <VersionInfo resourceName="node://mock/clientes/clientes_put_200.json" version="SHA-512:a8f54826efe390c77ef18c39885ce09d753ebc247f1f080901bcd44e217b02e025557c2d3a4bd51e2fd32e131f3bff4188e46f16dc2c254f099846a2ec1020e5"/>
+        <VersionInfo resourceName="node://node_modules.zip" version="SHA-512:8a47f3fbd082b4fbb8b01f1218a5a92a561bd3bba59d27ea83bb4e88f383442deeafc8757394108a697d1d3079d284c0dbb5dcd73429772e504ca7d0ccfa7275"/>
+        <VersionInfo resourceName="node://package.json" version="SHA-512:2c4781910edd00a6e007d44afd5d1d0b98c1566504b415fe6f35dafe8db9890d4161686bf284a073b89685d5e62a2eab6c77a05959b71b3a5127999f65f3aaff"/>
+        <VersionInfo resourceName="openapi://association.json" version="SHA-512:7fd2036db71e7dc4dae7012e3244dc09dedae825cfb252a80ea0bddee9e8f5a366dd102a3088fd892b0fe0b96293c758042a75d8ddcb6ee8e86e5599abe99fd0"/>
+        <VersionInfo resourceName="openapi://clientes-v1.yaml" version="SHA-512:cd7bf3e0f5b011f4fc230ea55dfdc62b55af23c274fcaa700e3e2d4403dc23e3f56a040bf46b891164aeebbef6dbd9ec83f2acdfe33062728228e17eae575775"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:6c0f4cc83d8d11fbb782892d990c1e8b97db3280540236e410d371869c76e0c5942a558d570b7e8a46947c5594051c0a64340e908f75ff1fa0f1de6ba1bcaf26"/>
+        <VersionInfo resourceName="mock" version="SHA-512:a520478241d29278ec31213ef118ee44c8174f13be9488bd3e3b05ed6e89686382aa81a4c5124585f42548a4a2fa2c87dbbe6fa9f902afc14542b692bdbda4ad"/>
+    </TargetEndpoints>
+</Manifest>

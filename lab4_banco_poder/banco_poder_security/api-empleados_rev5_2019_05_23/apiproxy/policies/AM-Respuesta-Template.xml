@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-Respuesta-Template">
+    <DisplayName>AM-Respuesta-Template</DisplayName>
+    <Set>
+        <Headers>
+            <Header name="Content-Type">application/json</Header>
+            <Header name="Access-Control-Allow-Origin">{request.header.origin}</Header>
+        </Headers>
+        <Payload contentType="application/json" variablePrefix="#" variableSuffix="%">
+            {
+                "codigo": "#flow.error.code%",
+                "mensaje": "#flow.error.message%"
+            }
+        </Payload>
+        <StatusCode>{flow.error.http.code}</StatusCode>
+        <ReasonPhrase>{flow.error.http.reason}</ReasonPhrase>
+    </Set>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

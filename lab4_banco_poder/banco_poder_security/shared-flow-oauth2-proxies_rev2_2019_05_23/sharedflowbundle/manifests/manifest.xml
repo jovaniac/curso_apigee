@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-Error-Verify-Auth" version="SHA-512:6ab94cb8d98baefe82afd14b15df6ec08978e57e1211ada2e33c2f26962b19378049ebca3f960db8411b5cb2fd8323c9d09eb76a0ae1fe297e7129a595a072ab"/>
+        <VersionInfo resourceName="OAuth-v20-1" version="SHA-512:e890ff1671a5d0ff4574b174bc38f5d922c76424c0e300a596783051b374a57d42b35c77ff1349a076019dad3256f2beb282e1b0e6cfa0f11981245f2a956b9e"/>
+        <VersionInfo resourceName="RF-Excepcion" version="SHA-512:dc4729b8bfbb9e55a917ad9a0346034bb4d1793f4f212eb7a2a7345cd32c4953d6e9fdd2c7b9a5b2e700deb4dc962625b81523bad2a1806894739f2eff1b1067"/>
+    </Policies>
+    <ProxyEndpoints/>
+    <Resources/>
+    <SharedFlows>
+        <VersionInfo resourceName="default" version="SHA-512:52febac85cfad25d3dafc32389a9213641b08654ef264c8814ee38dced03995669a498f1b3bb347fc3953b243a1191b9140227f1d47aa820d7989e5ddab79931"/>
+    </SharedFlows>
+    <TargetEndpoints/>
+</Manifest>
