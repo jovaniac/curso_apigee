@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+    <Description/>
+    <DefaultFaultRule name="fault-rule">
+        <Step>
+            <Name>AM-Error-Respuesta</Name>
+        </Step>
+        <Step>
+            <Name>AM-Error-Fatal</Name>
+            <Condition>(flow.error.code = null)</Condition>
+        </Step>
+        <AlwaysEnforce>true</AlwaysEnforce>
+    </DefaultFaultRule>
+    <FaultRules>
+        <FaultRule name="APIKeyInvalido">
+            <Step>
+                <Name>AM-Error-Autentificacion</Name>
+            </Step>
+            <Condition>(fault.name = "InvalidApiKey")</Condition>
+        </FaultRule>
+    </FaultRules>
+    <PreFlow name="preflow">
+        <Request>
+        </Request>
+    </PreFlow>
+    <Flows>
+        <Flow name="AccessToken">
+            <Description/>
+            <Condition>(proxy.pathsuffix MatchesPath "/accesstoken") and (request.verb = "POST")</Condition>
+            <Request>
+                <Step>
+                    <Name>BA-Extract-BasicAuth</Name>
+                </Step>
+                <Step>
+                    <Name>VK-Valida-AK</Name>
+                </Step>
+                <Step>
+                    <Name>GenerateAccessTokenClient</Name>
+                </Step>
+            </Request>
+            <Response>
+                <Step>
+                    <Condition>(oauthV2.GenerateAccessTokenClient.failed = true)</Condition>
+                    <Name>AM-Error-Autentificacion</Name>
+                </Step>
+                <Step>
+                    <Condition>(flow.error.code != null)</Condition>
+                    <Name>RF-Lanza-Error</Name>
+                </Step>
+            </Response>
+        </Flow>
+    </Flows>
+    <HTTPProxyConnection>
+        <BasePath>/autorizationserver</BasePath>
+        <Properties/>
+        <VirtualHost>secure</VirtualHost>
+    </HTTPProxyConnection>
+    <RouteRule name="noroute"/>
+</ProxyEndpoint>

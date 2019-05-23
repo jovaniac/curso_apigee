@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="18" name="AutorizationServer">
+    <Basepaths>/autorizationserver/client_credentials</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1543535581205</CreatedAt>
+    <CreatedBy>jovaniac@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>AutorizationServer</DisplayName>
+    <LastModifiedAt>1558586087057</LastModifiedAt>
+    <LastModifiedBy>jovaniac@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:39816baab9500e39fef3d5b95e982dabada4361a94d728dcd6f9d2e59022923e579f4f5946c05fe17730c734e54f36b62ba54f42e46a98716894f84b5fe60792</ManifestVersion>
+    <Policies>
+        <Policy>AM-Error-Autentificacion</Policy>
+        <Policy>AM-Error-Fatal</Policy>
+        <Policy>AM-Error-Respuesta</Policy>
+        <Policy>BA-Extract-BasicAuth</Policy>
+        <Policy>GenerateAccessTokenClient</Policy>
+        <Policy>RF-Lanza-Error</Policy>
+        <Policy>VK-Valida-AK</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>

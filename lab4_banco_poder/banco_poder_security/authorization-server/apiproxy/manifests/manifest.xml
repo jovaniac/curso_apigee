@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-Error-Autentificacion" version="SHA-512:2627f608effb969fe7f6ac31fe5156818d933d3e8ca36b2c100da36db76b5e4a110627514b49e1a253be9517e128ed45282bcc86959908ac27a129610bd74ac7"/>
+        <VersionInfo resourceName="AM-Error-Fatal" version="SHA-512:aaea956af21a093fd54099b3a0db3b005e4b2cdc6e55ea43bf3df686a4546a18deee30002a898b8f6fef3ea41973acc111cca11c59a7ea009ccaf6f679a2c669"/>
+        <VersionInfo resourceName="AM-Error-Respuesta" version="SHA-512:2c50dd2cc5dd0247150cb5b9d07803e9318ed6493dcf596bac4412188d5f42f3ad78b12f69cae8e2b0b0b7871c71bc3cef51ce9ce8104ccca6ad43de849423c2"/>
+        <VersionInfo resourceName="BA-Extract-BasicAuth" version="SHA-512:3f40e54203436c02b3d65d4e0ca7bc7a2b78184ec6ab9634696ee4b56c6ac76e4f435749cb09706dac3edd73e652cbf51e11801c6ab02395ed2b45f9bb9541aa"/>
+        <VersionInfo resourceName="GenerateAccessTokenClient" version="SHA-512:20c330025c61e2cec386b021ffed0480acfe3a43db3c7d6370bbe099d9f7373c1dfaf9b410dd57d43666b51c62c798b2af2c0802688b53ece4a24ccba89840e7"/>
+        <VersionInfo resourceName="RF-Lanza-Error" version="SHA-512:124907a091b38b8b8b4477faaed0f35eb2e4fa67f366de672acf995c67f3776c5f4bb899a8067eaad116cfda5c472d666c614a57376aeec88efe1ca979d42487"/>
+        <VersionInfo resourceName="VK-Valida-AK" version="SHA-512:4fde6309c45f236a7f7c4829197b741450c6ae72aba4bcddf40877f88803eeac3e0bc1c44af5938aa957c45fba6eab3bfd219594417aa42b19e3d224ca80357a"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:9fce04459c0f1710b77c834a7ce3094fc79fbc349115162f1486bc062b3b0c3b0f179d7f48bbb326bc54f8399b7620e7467564cf736cd21a073ce3b5cf85e601"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints/>
+</Manifest>
